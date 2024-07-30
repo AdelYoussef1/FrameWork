@@ -1,0 +1,36 @@
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: var(--main-color);
+    margin-top: .4rem;
+}
+h1 {
+    color: var(--main-color);
+}
+
+.hover-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+
+img {
+    cursor: pointer;
+}
+
+.row .col-md-4:hover .hover-img{
+    background-color: #1abc9ca1;
+    transition: 0.5s all;
+}
+
+.hover-img i {
+    color: transparent;
+}
+
+.row .col-md-4:hover .hover-img i {
+    color :white;
+    transition: 0.5s all;
+}

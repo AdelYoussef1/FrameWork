@@ -1,0 +1,10 @@
+#About {
+    background-color: rgb(162, 12, 162);
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: white;
+    margin-top: .4rem;
+}
